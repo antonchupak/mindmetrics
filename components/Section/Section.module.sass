@@ -1,0 +1,62 @@
+.container
+  margin: 0 auto
+  width: 980px
+
+.containerWrap
+  margin: 0 auto
+  width: 980px
+  display: flex
+  flex-direction: row-reverse
+
+.section
+  position: relative
+  display: flex
+  flex-direction: row
+  padding: 60px 0
+  background-color: #ffffff
+  text-align: center
+
+.section.grey
+  background-color: #f2f2f2
+
+.title
+  margin-top: 0
+  margin-bottom: 40px
+  font-size: 30px
+  font-family: 'opensans_bold', sans-serif
+
+.description
+  margin-top: 0
+  margin-bottom: 30px
+  font-size: 16px
+  font-family: 'opensans_light', sans-serif
+
+.textContent
+  width: 100%
+
+  .textContentWrap
+    width: 700px
+    text-align: center
+    margin: 0 auto
+
+.imageContent
+  position: relative
+
+.section.withImage
+  .textContent,
+  .imageContent
+    width: 50%
+
+  .textContentWrap
+    width: 500px
+    text-align: left
+
+.section.withImage
+  .textContent
+    margin-right: 100px
+
+.section.reverse
+  flex-direction: row-reverse
+  .textContent
+    margin-right: 0
+    margin-left: 100px
